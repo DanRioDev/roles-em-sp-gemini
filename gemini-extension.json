@@ -1,0 +1,12 @@
+{
+  "name": "roles-em-sp",
+  "version": "1.0.0",
+  "description": "Rolês em SP: concierge de rolês culturais em São Paulo (conector MCP remoto, login obrigatório).",
+  "mcpServers": {
+    "roles-em-sp": {
+      "httpUrl": "https://rolesemsp.com.br/mcp",
+      "oauth": { "enabled": true }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
