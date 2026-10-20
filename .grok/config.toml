@@ -1,0 +1,3 @@
+[mcp_servers.roles-em-sp]
+transport = "http"
+url = "https://rolesemsp.com.br/mcp"

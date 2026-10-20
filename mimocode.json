@@ -1,0 +1,13 @@
+{
+  "$schema": "https://mimo.xiaomi.com/mimocode/config.json",
+  "mcp": {
+    "roles-em-sp": {
+      "type": "remote",
+      "url": "https://rolesemsp.com.br/mcp",
+      "enabled": true,
+      "oauth": {
+        "scope": "catalogue:read"
+      }
+    }
+  }
+}

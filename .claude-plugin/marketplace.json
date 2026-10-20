@@ -1,0 +1,16 @@
+{
+  "name": "roles-em-sp",
+  "description": "Rolês em SP — conector MCP remoto para curadoria de rolês culturais em São Paulo",
+  "owner": {
+    "name": "DanRioDev",
+    "url": "https://rolesemsp.com.br"
+  },
+  "plugins": [
+    {
+      "name": "roles-em-sp",
+      "description": "Rolês em SP: curated São Paulo cultural concierge (remote Streamable HTTP MCP with OAuth).",
+      "version": "1.0.0",
+      "source": "./"
+    }
+  ]
+}
