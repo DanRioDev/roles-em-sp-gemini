@@ -9,7 +9,7 @@
     {
       "name": "roles-em-sp",
       "description": "Rolês em SP: curated São Paulo cultural concierge (remote Streamable HTTP MCP with OAuth).",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./"
     }
   ]
