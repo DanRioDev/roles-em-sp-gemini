@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "roles-em-sp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Rolês em SP: curated São Paulo cultural and leisure concierge via remote Streamable HTTP MCP (OAuth required).",
   "author": {
     "name": "Rolês em SP",

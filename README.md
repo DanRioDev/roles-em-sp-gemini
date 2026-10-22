@@ -84,3 +84,15 @@ Após autenticar via código OTP de 6 dígitos enviado para seu e-mail (sessão 
 - `search_roles` — Busca semântica e filtrada de rolês culturais, gastronômicos e passeios em São Paulo.
 - `get_role_details` — Detalhes curados do local (endereço, resumo, faixa de preço, acessibilidade, restrições alimentares e links de referência).
 - `list_categories_and_regions` — Lista as categorias e regiões de São Paulo disponíveis no catálogo.
+
+---
+
+## Guias Anti-Hype de São Paulo & Benchmark MCP em Português
+
+- **[Guias de Roteiros Anti-Hype em SP (`guides/`)](./guides/index.md):**
+  - [10 Roteiros Culturais Anti-Hype em São Paulo (Sem Fila de Reels/TikTok)](./guides/roteiros-anti-hype-sp.md)
+  - [Dates Culturais em SP até R$ 150 no Total (Opções Vegetarianas e Sem Álcool)](./guides/dates-culturais-sp-ate-150.md)
+  - [Domingo em Família com Criança Pequena em SP (Sombra, Área Aberta e Ritmo Leve)](./guides/domingo-em-familia-crianca-pequena-sp.md)
+  - [O Que Fazer em SP em Dia de Chuva Sem Ir em Shopping](./guides/dias-de-chuva-sem-shopping-sp.md)
+- **[O Benchmark Prático de MCP em Português (`BENCHMARK-PTBR.md`)](./BENCHMARK-PTBR.md):** 5 desafios graduados (Nível 1 ao Boss Fight Nível 5) e rubrica de 100 pontos para testar agentes de IA em problemas reais de São Paulo.
+- **[Índice para buscadores de IA (`llms.txt`)](./llms.txt)**

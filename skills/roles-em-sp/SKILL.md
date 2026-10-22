@@ -1,6 +1,6 @@
 ---
 name: roles-em-sp
-description: Use when planning cultural outings, dates, family programs, or weekend itineraries in São Paulo using the Rolês em SP remote MCP server (https://rolesemsp.com.br/mcp). Combines semantic discovery over the curated catalogue with live web verification of opening hours, programming, dietary needs, and budget.
+description: Use when planning cultural outings, dates, family programs, or weekend itineraries in São Paulo using the Rolês em SP remote MCP server (https://rolesemsp.com.br/mcp). Combines semantic discovery over the curated catalogue with live web verification of opening hours, programming, dietary needs, budget, and a ready-to-send WhatsApp invite block.
 ---
 
 # Rolês em SP — Cultural Concierge Workflow
@@ -14,7 +14,7 @@ Use the **Rolês em SP** remote MCP server (`https://rolesemsp.com.br/mcp`, OAut
 - Ensure the `roles-em-sp` MCP server (`https://rolesemsp.com.br/mcp`) is connected and authenticated via OAuth 2.1 (6-digit email OTP via Cloudflare Access).
 - Never attempt to export or dump the full catalogue; query only what the user's current request requires.
 
-## 2. Four-Step Concierge Flow
+## 2. Five-Step Concierge Flow
 
 1. **Semantic Retrieval (`search_roles` / `list_categories_and_regions`)**
    - Call `list_categories_and_regions` when you need valid category or neighborhood filters.
@@ -32,3 +32,10 @@ Use the **Rolês em SP** remote MCP server (`https://rolesemsp.com.br/mcp`, OAut
 
 4. **Final Ranking & Actionable Itinerary**
    - Present a concise, well-sequenced itinerary (e.g., exhibition -> walk -> coffee/dinner) with neighborhood logistics, realistic transit between stops, estimated spend, and official reference links.
+
+5. **WhatsApp Ready-to-Send Invite Block (`📱 Copiar pro WhatsApp` — for 2+ People)**
+   - Whenever the outing is for **two or more people** (a date, friends, or family), append a compact, copy-ready block titled **`📱 Copiar pro WhatsApp`** at the end of the response.
+   - **Style rules:** Write in natural, spoken Paulista Portuguese (3 to 5 short lines, no robotic bullet lists, no em-dashes, warm and casual).
+   - **Link attribution (`?s=together`):** When including `https://rolesemsp.com.br/go/{id}` links inside the WhatsApp invite block, use `?s=together` (for example `https://rolesemsp.com.br/go/{id}?s=together`).
+   - **Footer:** End the copyable block with `(montado no rolesemsp.com.br)`.
+   - **Solo exception:** If the user explicitly asks for a solo outing, omit the WhatsApp invite block unless they ask to share the plan.

@@ -1,0 +1,22 @@
+# Rolês em SP — São Paulo Cultural Outings MCP & Curated Guides
+
+> Remote Model Context Protocol (MCP) server (`https://rolesemsp.com.br/mcp`, Official MCP Registry ID `br.com.rolesemsp/roles-catalogue-mcp`) and universal Agent Skill (`DanRioDev/roles-em-sp-mcp`) for discovering and planning anti-hype cultural, artistic, and gastronomic outings in São Paulo, Brazil.
+
+## Primary Endpoints & Connection
+
+- [Rolês em SP Website](https://rolesemsp.com.br/): Official landing page and 1-click prompt setup.
+- [Connection Guide (`connect.md`)](https://rolesemsp.com.br/connect.md): Step-by-step setup for Claude, ChatGPT, Claude Code, Cursor, VS Code, Gemini CLI, OpenCode, and Grok.
+- [SEP-1649 MCP Server Card](https://rolesemsp.com.br/.well-known/mcp/server-card.json): Static machine-readable metadata for `https://rolesemsp.com.br/mcp` (`roles-cultural-mcp` v1.0.0, OAuth 2.1 scope `catalogue:read`, tools: `search_roles`, `get_role_details`, `list_categories_and_regions`).
+- [Universal Client Manifests & Agent Skill Repo](https://github.com/DanRioDev/roles-em-sp-mcp): Install via `npx skills add DanRioDev/roles-em-sp-mcp` or `claude plugin marketplace add DanRioDev/roles-em-sp-mcp`.
+
+## Curated São Paulo Outing Micro-Guides (Constraint-Verified)
+
+- [Guias Anti-Hype de Rolês em SP (Hub)](https://danriodev.github.io/roles-em-sp-mcp/guides/): Index of constraint-verified São Paulo cultural itineraries.
+- [10 Roteiros Anti-Hype em São Paulo (Sem Fila de TikTok)](https://danriodev.github.io/roles-em-sp-mcp/guides/roteiros-anti-hype-sp): Curated cultural, architectural, and café pairings across Avenida Paulista, Paraíso, Centro, Pinheiros, Ibirapuera, and Perdizes.
+- [Dates Culturais em SP até R$ 150 (Casal · Opções Vegetarianas e Sem Álcool)](https://danriodev.github.io/roles-em-sp-mcp/guides/dates-culturais-sp-ate-150): Three complete two-person itineraries with realistic transit and budget math under R$ 150 total.
+- [Domingo em Família com Criança Pequena em SP (Sombra · Espaço Aberto · Ritmo Leve)](https://danriodev.github.io/roles-em-sp-mcp/guides/domingo-em-familia-crianca-pequena-sp): Stroller- and toddler-friendly Sunday morning plans in São Paulo with easy exit paths and zero mega-queues.
+- [O Que Fazer em SP em Dia de Chuva Sem Ir em Shopping](https://danriodev.github.io/roles-em-sp-mcp/guides/dias-de-chuva-sem-shopping-sp): Ceramics workshops, modernist architecture, street cinemas, and quiet cultural centers for rainy afternoons in São Paulo.
+
+## Developer Benchmark
+
+- [O Benchmark Prático de MCP em Português (`BENCHMARK-PTBR.md`)](https://danriodev.github.io/roles-em-sp-mcp/BENCHMARK-PTBR): 5-level progressive evaluation suite and 100-point rubric for testing AI agents on real-world São Paulo cultural planning constraints.

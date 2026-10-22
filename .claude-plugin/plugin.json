@@ -1,6 +1,6 @@
 {
   "name": "roles-em-sp",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Rolês em SP: concierge de rolês culturais em São Paulo (conector MCP remoto via Streamable HTTP e OAuth).",
   "author": {
     "name": "Rolês em SP",
