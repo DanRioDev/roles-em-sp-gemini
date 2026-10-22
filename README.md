@@ -13,6 +13,7 @@ Repositório universal de configuração de clientes e Agent Skill (apenas metad
 
 - **Website:** https://rolesemsp.com.br/
 - **Setup Guide (`connect.md`):** https://rolesemsp.com.br/connect.md
+- **Privacy Policy:** [Privacy & Data Handling](https://rolesemsp.com.br/about-en.md)
 - **Remote MCP Endpoint:** `https://rolesemsp.com.br/mcp` (Streamable HTTP)
 - **SEP-1649 Server Card:** https://rolesemsp.com.br/.well-known/mcp/server-card.json
 - **Official MCP Registry ID:** `br.com.rolesemsp/roles-catalogue-mcp`
